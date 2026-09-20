@@ -141,7 +141,7 @@ function MobileArsenal({ day }) {
 function MobileContact({ day }) {
   return (
     <section id="contact" className={`relative isolate mx-auto max-w-6xl overflow-hidden border-t px-4 py-12 ${day ? 'border-slate-200 bg-white text-slate-950' : 'border-neutral-900 bg-black text-white'}`}>
-      <MobileImage src={day ? '/DMC.jpg' : '/NMC.jpg'} />
+      <MobileImage src={day ? '/day-contact-mobile.png' : '/NMC.jpg'} />
       <div className={`absolute inset-0 -z-10 ${day ? 'bg-[linear-gradient(180deg,rgba(255,255,255,0.22)_0%,rgba(255,255,255,0.94)_100%)]' : 'bg-[linear-gradient(180deg,rgba(0,0,0,0.22)_0%,rgba(0,0,0,0.94)_100%)]'}`} />
       <div className={`relative z-10 mx-auto w-full max-w-[22rem] rounded-sm p-4 ${day ? 'bg-white/78' : 'bg-black/48'}`}>
         <span className={`font-mono text-[0.65rem] font-semibold uppercase tracking-[0.18em] ${day ? 'text-red-950' : 'text-red-500'}`}>{day ? '// Case file Final: Daylight dispatch' : '// Case file Final: Direct dispatch'}</span>

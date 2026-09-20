@@ -75,7 +75,7 @@ function Dossier({ theme }) {
                 target="_blank"
                 rel="noreferrer"
               >
-                NEXORA
+                Bitlit
               </a>
               —ensuring zero data friction
               across inspectors and admins—or scaling modern web interfaces, I
