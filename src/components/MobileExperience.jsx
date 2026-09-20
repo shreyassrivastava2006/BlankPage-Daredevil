@@ -22,8 +22,8 @@ const mobileModules = [
 ]
 
 const mobileChannels = [
-  ['01', 'Public repo', 'GitHub', 'Inspect source code, build commits, and active repositories.', 'Open vault ↗', 'https://github.com/your-username'],
-  ['02', 'Professional', 'LinkedIn', 'Career background, network, recommendations, and credentials.', 'Connect ↗', 'https://www.linkedin.com/in/your-username'],
+  ['01', 'Public repo', 'GitHub', 'Inspect source code, build commits, and active repositories.', 'Open vault ↗', 'https://github.com/shreyassrivastava2006'],
+  ['02', 'Professional', 'LinkedIn', 'Career background, network, recommendations, and credentials.', 'Connect ↗', 'https://www.linkedin.com/in/srivastavshreyas'],
   ['03', 'Direct dispatch', 'Direct mail', 'Inquiries regarding roles, hackathons, and systems design.', 'Send message ↗', 'https://mail.google.com/mail/?view=cm&fs=1&to=shreyassrivastava50%40gmail.com&su=Project%20inquiry&body=Hi%2C%20I%20would%20like%20to%20discuss%20a%20project%20or%20opportunity%20with%20you.'],
 ]
 
