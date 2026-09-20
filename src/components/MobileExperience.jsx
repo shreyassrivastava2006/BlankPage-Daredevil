@@ -9,15 +9,15 @@ const mobileModules = [
     number: '02',
     title: 'Core Engine & Data Flow',
     subtitle: 'Backend & Logic',
-    technologies: ['Node.js', 'Express', 'Python', 'REST APIs', 'JSON pipelines'],
+    technologies: ['Node.js', 'JSON pipelines'],
     horizon: 'FastAPI, high-concurrency Python backend engineering.',
   },
   {
     number: '03',
     title: 'The Armory & Hardware',
     subtitle: 'Tools & Core Systems',
-    technologies: ['C', 'Core Java'],
-    tooling: ['Git', 'GitHub', 'Linux / WSL', 'Postman', 'Vite'],
+    technologies: ['C', 'Javascript','Python'],
+    tooling: ['Git', 'GitHub', 'Linux / WSL', 'Vercel', 'Vite','shadcn'],
   },
 ]
 
@@ -86,7 +86,7 @@ function MobileDossier({ day }) {
             <p className={`mb-4 border-b pb-3 font-mono text-[0.65rem] font-bold uppercase tracking-[0.15em] ${day ? 'border-slate-200 text-red-900' : 'border-white/15 text-red-400'}`}>// Subject specifications</p>
             <dl className={`space-y-4 font-mono text-[0.68rem] uppercase leading-5 tracking-[0.04em] ${day ? 'text-slate-800' : 'text-white'}`}>
               <div><dt className="text-slate-500">Operational base</dt><dd>Lucknow, IN</dd></div>
-              <div><dt className="text-slate-500">Core role</dt><dd>Full-Stack Web Developer &amp; Normal human</dd></div>
+              <div><dt className="text-slate-500">Core role</dt><dd>Full-Stack Web Developer</dd></div>
               <div><dt className="text-slate-500">Philosophy</dt><dd>No complexity, No attachments, No debates - Only practical work.</dd></div>
               <div><dt className="text-slate-500">Status</dt><dd className={day ? 'text-amber-700' : 'text-red-300'}>Active // Ready for deployment</dd></div>
             </dl>
