@@ -55,7 +55,7 @@ function Arsenal({ theme }) {
         className={`absolute inset-0 -z-10 ${
           isDay
           ? 'bg-[linear-gradient(90deg,rgba(248,250,252,0.78)_0%,rgba(248,250,252,0.58)_38%,rgba(248,250,252,0.16)_72%,rgba(248,250,252,0.04)_100%),linear-gradient(0deg,rgba(248,250,252,0.42),transparent_65%)] max-sm:bg-[linear-gradient(180deg,rgba(248,250,252,0.2)_0%,rgba(248,250,252,0.58)_45%,rgba(248,250,252,0.94)_100%)]'
-          : 'bg-[linear-gradient(90deg,rgba(7,7,7,0.9)_0%,rgba(7,7,7,0.68)_50%,rgba(7,7,7,0.45)_100%),linear-gradient(0deg,rgba(7,7,7,0.88),rgba(7,7,7,0.35))] max-sm:bg-[linear-gradient(180deg,rgba(0,0,0,0.18)_0%,rgba(0,0,0,0.48)_45%,rgba(0,0,0,0.94)_100%)]'
+          : 'bg-black/80 backdrop-blur-sm'
         }`}
       />
       <div className={`relative z-10 mx-auto w-full max-w-[22rem] rounded-sm max-sm:p-4 sm:max-w-7xl ${isDay ? 'drop-shadow-[0_1px_2px_rgba(255,255,255,0.5)] max-sm:bg-slate-50/78' : 'max-sm:bg-black/48'}`}>

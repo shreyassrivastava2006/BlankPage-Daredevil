@@ -4,14 +4,12 @@ const mobileModules = [
     title: 'Sensory Precision',
     subtitle: 'Frontend & Interfaces',
     technologies: ['React', 'Tailwind CSS', 'JavaScript', 'HTML5/CSS3'],
-    focus: 'Responsive component design, minimal DOM footprint, accessible navigation.',
   },
   {
     number: '02',
     title: 'Core Engine & Data Flow',
     subtitle: 'Backend & Logic',
     technologies: ['Node.js', 'Express', 'Python', 'REST APIs', 'JSON pipelines'],
-    focus: 'Role-based access control, state coordination, clean API contracts.',
     horizon: 'FastAPI, high-concurrency Python backend engineering.',
   },
   {
@@ -20,7 +18,6 @@ const mobileModules = [
     subtitle: 'Tools & Core Systems',
     technologies: ['C', 'Core Java'],
     tooling: ['Git', 'GitHub', 'Linux / WSL', 'Postman', 'Vite'],
-    focus: 'Version control, terminal efficiency, low-level problem solving.',
   },
 ]
 
@@ -105,7 +102,7 @@ function MobileArsenal({ day }) {
   return (
     <section id="arsenal" className={`relative isolate mx-auto max-w-6xl overflow-hidden px-4 py-12 pb-28 ${day ? 'bg-sky-50 text-slate-950' : 'bg-neutral-950 text-white'}`}>
       <MobileImage src={day ? '/DMA.jpg' : '/NMA.jpg'} />
-      <div className={`absolute inset-0 -z-10 backdrop-blur-[2px] ${day ? 'bg-[linear-gradient(180deg,rgba(248,250,252,0.2)_0%,rgba(248,250,252,0.95)_100%)]' : 'bg-black/85'}`} />
+      <div className={`absolute inset-0 -z-10 backdrop-blur-sm ${day ? 'bg-[linear-gradient(180deg,rgba(248,250,252,0.2)_0%,rgba(248,250,252,0.95)_100%)]' : 'bg-black/80'}`} />
       <div className={`relative z-10 mx-auto w-full max-w-[22rem] rounded-sm p-4 ${day ? 'bg-slate-50/78' : 'bg-black/48'}`}>
         <p className={`mb-5 flex items-center gap-3 text-[0.65rem] font-bold uppercase tracking-[0.2em] ${day ? 'text-red-900' : 'text-red-400'}`}>
           <span className={`h-px w-8 ${day ? 'bg-red-900' : 'bg-red-500'}`} />{day ? 'Briefcase Records' : 'Case file 002: Combat Loadout'}
@@ -130,7 +127,6 @@ function MobileArsenal({ day }) {
                   </dd>
                 </div>
                 {module.tooling && <div><dt className={day ? 'text-red-900' : 'text-red-400'}>Environment &amp; tooling</dt><dd className="mt-2 flex flex-wrap gap-1.5">{module.tooling.map((tool) => <span className={`rounded-sm px-2 py-1 text-xs ${day ? 'bg-red-950/10 text-slate-800' : 'bg-white/10 text-stone-100'}`} key={tool}>{tool}</span>)}</dd></div>}
-                <div className="hidden sm:block"><dt className={day ? 'text-red-900' : 'text-red-400'}>Tactical focus</dt><dd>{module.focus}</dd></div>
                 {module.horizon && <div className="border-t border-red-500/20 pt-3"><dt className={day ? 'text-red-900' : 'text-red-400'}>Under development</dt><dd>{module.horizon}</dd></div>}
               </dl>
             </article>

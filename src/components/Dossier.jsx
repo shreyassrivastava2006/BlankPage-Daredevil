@@ -95,7 +95,7 @@ function Dossier({ theme }) {
               <div>
                 <dt className={isDay ? 'text-slate-500' : 'text-neutral-400'}>Core role</dt>
                 <dd className={isDay ? 'mt-1.5 leading-6 text-slate-900' : 'mt-1.5 leading-6 text-stone-100'}>
-                  Full-Stack Web Developer & Normal human
+                  Full-Stack Web Developer 
                 </dd>
               </div>
               <div>
